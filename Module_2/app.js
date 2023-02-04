@@ -19,7 +19,7 @@ function myfunction() { // block variable starts here.
     document.getElementById("test").innerHTML="I am not sure?" ;
 }   // block variable ends here.
 
-myfunction();
+myfunction("line + test") ;
 
 console.log(life);
 
