@@ -36,11 +36,14 @@ function myGreeting() {
 // Pass Parameters in and out
 function art (x) {
     alert("Digital media " + x) ;
+    return x ;
 }
 
 art("programming course 2023.") ;
 
-
+function sum (x, y) {
+    return x + y ;
+}
 
 
 
