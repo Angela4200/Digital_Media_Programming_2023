@@ -1,0 +1,45 @@
+/* does not work
+.change {
+    color: lightblue;
+    font-size: 100px;
+    border: 10px solid black;
+}
+
+
+
+.change {
+    color: lightblue;
+    font-size: 100px;
+    border: 10px solid black;
+}*/
+
+.title {
+    color: maroon ;
+}
+
+.addListBtn:hover {
+    background-color: maroon;
+    color: white;
+}
+
+.myButton:hover{
+    background-color: maroon;
+    color: white;
+}
+
+/* change CSS variables value */
+:root {
+    --twm-size: 100px;
+    --twm-count: 1;
+}
+
+.cube {
+    margin:0 auto;
+    background-color: darkred;
+    width: calc(var(--twm-size) * var(--twm-count));
+    height: calc(var(--twm-size) * var(--twm-count));
+}
+
+
+
+
