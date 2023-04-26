@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 11</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!--Tabs Starts
+    <h2>Tabs</h2>
+    <P>Click on the button inside the tabbed menu:</P>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event,'London')">London</button>
+        <button class="tablinks" onclick="openCity(event,'Paris')">Paris</button>
+        <button class="tablinks" onclick="openCity(event,'Tokyo')">Tokyo</button>
+    </div>
+
+    <div id="Paris" class="tabcontent">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+    </div>
+
+    <div id="Tokyo" class="tabcontent">
+        <h3>Tokyo</h3>
+        <P>Paris is the captial of Japan.</P>
+    </div>
+    Tabs End-->
+
+    <div id="game">
+        <div id="character"></div>
+        <div id="block"></div>
+    </div>
+
+    <!--Tic Tac Toe Starts here-->
+    <div id ="gameContainer">
+        <h1>Tic Tac Toe</h4>
+        <div id="cellContainer">
+            <div cellIndex="0" class="cell"></div>
+            <div cellIndex="1" class="cell"></div>
+            <div cellIndex="2" class="cell"></div>
+            <div cellIndex="3" class="cell"></div>
+            <div cellIndex="4" class="cell"></div>
+            <div cellIndex="5" class="cell"></div>
+            <div cellIndex="6" class="cell"></div>
+            <div cellIndex="7" class="cell"></div>
+            <div cellIndex="8" class="cell"></div>
+        </div>
+        <h2 id="statusText"></h2>
+        <button id="restartBtn">Restart</button>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
