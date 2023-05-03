@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+/* Jumping Block Game Ends Here 
 #game{
     width: 500px;
     height: 200px;
@@ -42,6 +43,7 @@
     0%{left: 480px;}
     100%{left: -40px;}
 }
+Jumping Block Game Ends Here */
 
 /* Tic Tac Toe Starts Here */
 .cell{
@@ -65,6 +67,26 @@
     width: 225px;
     margin: auto;
 }
+/* Tic Tac Toe Ends Here */
+
+/* Falling Ball Game Starts Here */
+#game{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+#character{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 440px;
+    left: 190px;
+}
+/* Falling Ball Game Ends Here */
 
 
 /* Tab Starts Here
