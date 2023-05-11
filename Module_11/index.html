@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" onclick="jump()">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,36 +8,50 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!--Tabs Starts
-    <h2>Tabs</h2>
-    <P>Click on the button inside the tabbed menu:</P>
+    <!--Tabs Starts -->
+    <h2>Welcome</h2>
+    <P>To our mini arcade game webpage.</P>
+    <p>The tabs will tell you what games we have and how to play them.
+       Click on the tabs for the game description: </P>
 
     <div class="tab">
-        <button class="tablinks" onclick="openCity(event,'London')">London</button>
-        <button class="tablinks" onclick="openCity(event,'Paris')">Paris</button>
-        <button class="tablinks" onclick="openCity(event,'Tokyo')">Tokyo</button>
+        <button class="tablinks" onclick="openCity(event,'Game 1 (Is Down)')">Game 1 (Is Down)</button>
+        <button class="tablinks" onclick="openCity(event,'Game 2')">Game 2</button>
+        <button class="tablinks" onclick="openCity(event,'Game 3')">Game 3</button>
+        <button class="tablinks" onclick="openCity(event,'Game 4')">Game 4</button>
     </div>
 
-    <div id="Paris" class="tabcontent">
-        <h3>Paris</h3>
-        <p>Paris is the capital of France.</p>
+    <div id="Game 2" class="tabcontent">
+        <h3>Tic Tac Toe</h3>
+        <p>1. The game will tell you who turn it is X or O. Which letter you want to be play that turn.</p>
+        <p>2. Avoid letting your opponent get three in a row or diagonal of that players letter.</p>
+        <P>3. When a player gets three in a row or diagonal that player wins</P>
     </div>
 
-    <div id="Tokyo" class="tabcontent">
-        <h3>Tokyo</h3>
-        <P>Paris is the captial of Japan.</P>
+    <div id="Game 3" class="tabcontent">
+        <h3>Falling Ball</h3>
+        <P>1. Use your arrow keys to move the ball left or right.</P>
+        <p>2. The goal is to help the fall between the open gap.</p>
     </div>
-    Tabs End-->
+
+    <div id="Game 4" class="tabcontent">
+        <h3>Jumping Block Game</h3>
+        <p>Coming Soon.</p>
+    </div>
+    <!--Tabs End-->
+
 <!-- Jumping Block Game Starts Here
-    <div id="game">
-        <div id="character"></div>
+    <div id="match">
+        <h1>Jumping Block</h1>
+        <div id="role"></div>
         <div id="block"></div>
+        <button id="startgame1">Start Game</button>
     </div>
 Jumping Block Game Ends Here-->
 
     <!--Tic Tac Toe Starts here-->
     <div id ="gameContainer">
-        <h1>Tic Tac Toe</h4>
+        <h4>Tic Tac Toe</h4>
         <div id="cellContainer">
             <div cellIndex="0" class="cell"></div>
             <div cellIndex="1" class="cell"></div>
@@ -54,11 +68,18 @@ Jumping Block Game Ends Here-->
     </div>
     <!-- Tic Tac Toe Ends Here-->
 
-    <!-- Falling Ball Game Starts Here-->
+    <!-- Falling Ball Game Starts Here --> 
     <div id="game">
         <div id="character"></div>
+        <button id="startgame3">Start Game </button>
     </div>
-    <!-- Falling Ball Game ends Here-->
+     <!-- Falling Ball Game ends Here-->
+
+     <!-- AJAX Starts Here-->
+    <div class="container">Hello Everyone</div>
+    <button>Click</button>
+    <!-- AJAX Ends Here-->
+
 </body>
 <script src="app.js"></script>
 </html>

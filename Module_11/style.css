@@ -1,19 +1,23 @@
 *{
     padding: 0;
     margin: 0;
+    background-color: #670067;
+    color: #f2e5f2;
 }
 
-/* Jumping Block Game Ends Here 
-#game{
+/* Jumping Block Game Ends Here  
+#match{
     width: 500px;
-    height: 200px;
-    border: 1px solid black;
+    height: 237px;
+    border: 1px solid #bf7fbf;
+    margin: auto;
+    text-align: center;
 }
 
-#character{
+#role{
     width: 20px;
     height: 50px;
-    background-color: red;
+    background-color: #bf7fbf;
     position: relative;
     top: 150px; 
 }
@@ -32,7 +36,7 @@
 #block{
     width: 20px;
     height: 20px;
-    background: blue;
+    background: #f2e5f2;
     position: relative;
     top: 130px;
     left: 480px;
@@ -43,7 +47,7 @@
     0%{left: 480px;}
     100%{left: -40px;}
 }
-Jumping Block Game Ends Here */
+ Jumping Block Game Ends Here */
 
 /* Tic Tac Toe Starts Here */
 .cell{
@@ -67,40 +71,78 @@ Jumping Block Game Ends Here */
     width: 225px;
     margin: auto;
 }
+
+#restartBtn{
+    background-color: #bf7fbf;
+    color: #f2e5f2;
+    border: none;
+    width: 110px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
 /* Tic Tac Toe Ends Here */
 
 /* Falling Ball Game Starts Here */
 #game{
     width: 400px;
     height: 500px;
-    border: 1px solid black;
+    border: 1px solid #bf7fbf;
     margin: auto;
+    overflow: hidden;
 }
 
 #character{
     width: 20px;
     height: 20px;
-    background-color: red;
+    background-color: #f2e5f2;
     border-radius: 50%;
     position: relative;
-    top: 440px;
+    top: 400px;
     left: 190px;
+}
+
+.block{
+    width: 400px;
+    height: 20px;
+    background-color: #bf7fbf;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+
+.hole{
+    width: 40px;
+    height: 20px;
+    background-color: #670067;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+
+#startgame3 {
+    background-color: #bf7fbf;
+    color: #f2e5f2;
+    border: none;
+    width: 110px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: auto;
 }
 /* Falling Ball Game Ends Here */
 
-
-/* Tab Starts Here
-/* Tab Styles 
+/* Tab Starts Here */
+/* Tab Styles */
 body { font-family: Arial, Helvetica, sans-serif;}
 
-/* Styles the tab 
+/* Styles the tab*/ 
 .tab {
 overflow: hidden;
-border: 1px solid #ccc;
-background-color: #f1f1f1;
+border: 1px solid #bf7fbf;
+background-color: #bf7fbf;
 }
 
-/* Style the buttons inside the tab 
+/* Style the buttons inside the tab*/ 
 .tab button {
     background-color: inherit;
     float: left;
@@ -112,23 +154,24 @@ background-color: #f1f1f1;
     font-size: 17px;
 }
 
-/* Change background color of buttons on hover 
+/* Change background color of buttons on hover*/
 .tab button:hover {
-    background-color: #ddd;
+    background-color: #670067;
 }
 
-/* Create an active/current tablink class 
+/* Create an active/current tablink class */
 .tab button.active {
-    background-color: #ccc;
+    background-color: #670067;
 }
 
-/* Styles the tab content 
+/* Styles the tab content*/
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #bf7fbf;
     border-top: none;
 }
-/* Tabs end here */
+/*Tabs end here */
+
 
 
